@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trash Sorting Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Trash Sorting Game</h1>
+    <div id="controls-container">
+        <button id="start-button">Start Game</button>
+        <button id="upload-button">Upload Image</button>
+    </div>
+    <div class="game-container hidden">
+        <div id="score-container">Score:<span id ="score">0</div>
+        <div id="trash-container" class="hidden"></div>
+        <div id="bin-container" class="hidden">
+        <div id="left-bin" class="bin"></div>
+        <div id="right-bin" class="bin"></div>
+        </div>
+    </div>
+    <button id="stop-button" class="hidden">Stop playing</button>
+    <script src="script.js"></script>
+</body>
+</html>
